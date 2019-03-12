@@ -1,6 +1,7 @@
 body, html{
     margin: 0;
     height: 100%; /* Parallax */
+    scroll-behavior: smooth;
 }
 
 /* Efeito parallax */
@@ -36,6 +37,21 @@ body, html{
     letter-spacing: 5px;
 }
 
+/* Hover no card */ 
+
+.card-link{
+    text-decoration: none;
+}
+
+.card-content{
+    height: 100%;
+    width: 18rem;
+}
+
+.card-content:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* IE8 */
+}
 
 /* Alterando espaçamentos da box conteúdo no responsivo */
 @media screen and (max-width: 550px) {
