@@ -3,13 +3,6 @@ body, html{
     height: 100%; /* Parallax */
 }
 
-/*.conteudo{
-    color: #777;
-    background-color: #ffffff;
-    text-align: justify;
-    padding: 50px 80px
-}*/
-
 /* Efeito parallax */
 
 .caixa1, .caixa2, .caixa3, .caixa4{
@@ -43,6 +36,8 @@ body, html{
     letter-spacing: 5px;
 }
 
+
+/* Alterando espaçamentos da box conteúdo no responsivo */
 @media screen and (max-width: 550px) {
     .conteudo-titulo span.titulo {
         padding: 10px;
@@ -51,27 +46,11 @@ body, html{
 }
 
 /* Arrumando o tamanho da fonte do display em dispositivos móveis*/
+
 @media screen and (max-width: 575.98px) {
-    .display-1 {
-        font-size: 3rem;
-        font-weight: 300;
-        line-height: 1.0;
-    }
-    .display-2 {
-        font-size: 2.75rem;
-        font-weight: 300;
-        line-height: 1.0;
-    }
-
-    .display-3 {
-        font-size: 2.25rem;
-        font-weight: 300;
-        line-height: 1.0;
-    }
-
     .display-4 {
-        font-size: 3rem;
-        font-weight: 300;
+        font-size: 2.2rem;
+        font-weight: bold;
         line-height: 1.0;
     }
 }
