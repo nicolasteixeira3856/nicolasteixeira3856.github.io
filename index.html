@@ -39,578 +39,1188 @@
         </div>
     </div>
     <div> <!--Inicio da div sticky menu -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#formacao">Formação</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#experiencia">Experiência</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#habilidades">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#cursos-certificados">Cursos/certificados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="#projetos">Projetos</a>
-                </li>
-                </ul>
+
+        <ul class="nav nav-tabs justify-content-center bg-dark" id="languageTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="portuguese-tab" data-toggle="tab" href="#portuguese" role="tab" aria-controls="portuguese" aria-selected="true">Português</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="english-tab" data-toggle="tab" href="#english" role="tab" aria-controls="english" aria-selected="false">English</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="languageTabContent">
+            <div class="tab-pane fade show active" id="portuguese" role="tabpanel" aria-labelledby="portuguese-tab">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark ul-margin sticky-top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#formacao">Formação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#habilidades">Habilidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#experiencia">Experiência</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#cursos-certificados">Cursos/certificados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#projetos">Projetos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <section id="formacao"><!-- Inicio do section experiencia -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Formação</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">UFPR - Universidade Federal do Paraná</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Tecnologia em Análise e Desenvolvimento de Sistemas</p>
+                                <!-- <p>Atividades:</p> -->
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856" class="text-info">Visite também o meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">Cursando</p>
+                                <p>2019-2022</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">SENAI - Serviço Nacional de Aprendizagem Industrial</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Técnico em Informática</p>
+                                <p>Atividades: Desenvolvimento web, desenvolvimento mobile, banco de dados (SQL, SGBDs: MySQL, Oracle), padrões de projeto, prototipação de projeto, qualidade de sistemas (testes de sistemas, versão alfa e beta) e modelagem de sistemas (Diagramação UML) </p>
+                                <p>Projeto de conclusão de curso: <a target="_blank" href="https://github.com/nicolasteixeira3856/pr-imoveisbeta-projetoSENAI" class="text-info">Pr-imoveisbeta</a></p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856" class="text-info">Visite também o meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">Formado</p>
+                                <p>2015-2017</p>
+                            </div>
+                        </div>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section experieência -->
+                <hr>
+                <section id="habilidades"><!-- Inicio do section habilidades -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Habilidades</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p>HTML5, CSS, PHP (frameworks: Laravel, Zend Framework, Zend Expressive), JavaScript, NodeJS, banco de dados (SQL e NoSQL), Shell Script, Python, ReactJS, React Native, VueJS, JQuery, Axios, Bootstrap, Vuetify, Doctrine ORM, Eloquent ORM, Redis, ElasticSearch, Webpack, Yarn/NPM, Docker, Git, Jira, Confluence, Trello, Slack, Scrum, Linux(Debian/Ubuntu/Fedora/Manjaro) e nos padrões de projeto/arquitetura e práticas: MVC, DDD, PSR's, SOLID, Hexagonal Architecture, CQRS, Object Calisthenics.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <span class="font-weight-bold">Visite a seção <a href="#projetos">PROJETOS</a> para visualizar os trabalhos que realizei com minhas habilidades</span>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section habilidades -->
+                <hr>
+                <section id="experiencia"><!-- Inicio do section formação -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Experiência</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Overdrive Softwares e Consultoria</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Software Developer</p>
+                                <p>Atividades: Análise, desenvolvimento e manutenção de sistemas, principalmente administrativos, utilizando as seguintes linguagens e ferramentas: HTML5, CSS (Bootstrap), JavaScript (jQuery, Vue.JS), PHP com a framework Laravel e boa parte de suas ferramentas (Eloquent ORM, Migrations, criação de rotinas, validators, Resource Controllers) e também manutenção e desenvolvimento de novas features em sistema PHP puro, React, Webpack, Yarn/NPM, Docker, Github.
+                                <br>Ambiente Linux: desenvolvimento de tarefas de automação de servidor com utilização de Shell Script e Crontab, análise de implementação de envio de e-mails com Postfix, análise de logs gerados pelo servidor e deploy.</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">De Setembro de 2020 até o momento</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">MadeiraMadeira</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Software Developer</p>
+                                <p>Atividades: Desenvolvimento/manutenção de sistemas WEB (Stack LAMP) com as seguintes linguagens e ferramentas: HTML5, CSS(Bootstrap), JavaScript (jQuery, Vue.JS, Axios), PHP (Zend Framework 2 e 3, Zend Expressive 3, OO), Doctrine ORM, Redis, ElasticSearch, AWS(EC2, SQS, S3, Lambda), Webpack, Yarn/NPM, Python(para análise, manutenção e desenvolvimento de Lambda), Docker, Git. Padrões de arquitetura e práticas: DDD, TDD, BDD, PSR's, SOLID, Hexagonal Arquitecture, CQRS, Object Calisthenics.</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">De Setembro de 2019 até Setembro de 2020</p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Grupo BRT</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Desenvolvedor JR</p>
+                                <p>Atividades: Programação WEB em HTML5, CSS3(Bootstrap), JavaScript(VanillaJS, jQuery, ECMAScript6, VueJS, Angular), PHP (Laravel 4.4 e 5.8), GIT e desenvolvimento de software ágil com metodologia Kanban</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">De Junho de 2019 até Agosto de 2019</p>
+                                <p>Motivo de saída em dois meses: tempo para deslocamento até a Universidade.</p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">FACIAP</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Programa de pré-aceleração de StartUp</p>
+                                <p>Atividades: Desenvolvimento de API RESTful com Laravel e Vue Components</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">De Maio de 2019 até Julho de 2019</p>
+                            </div>
+                        </div>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section experiência -->
+                <section id="cursos-certificados"> <!-- Inicio do section cursos e certificados -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Cursos/certificados</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Desenvolvimento Web Completo 2019 - Udemy</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Conteúdo/atividades: HTML5, CSS3, Bootstrap 4 e design responsivo, JavaScript, JavaScript Moderno ECMAScript 2015 - ES6 e orientação a objetos, PHP7, PHP7 orientado a objetos, MySQL, Ajax, PHP com PDO e MySQL, publicação de aplicações web, JQuery, padrão de arquitetura MVC com PHP (utlizando Composer), API com Slim Framework, SASS, aplicações mobile com IONIC e Wordpress. </p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Curso-DesenvolvimentoWebCompleto" class="text-info">Visite o repositório desse curso no meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.udemy.com/certificate/UC-69bb2801-1e6e-4eb4-86ec-906aba12beb7/">Certificado</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Iniciando com Laravel 5.5 - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Conteúdo/atividades:  Definição de rotas, views, blade template, Artisan, models, controllers, CRUD com Eloquent ORM.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=bf2a94d9-a576-4bfd-bdd9-8e7c0b508043">Certificado</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Iniciando com MongoDB - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Conteúdo/atividades:  NOSQL e MongoDB, MongoShell, tipos de dados, validações, collections, CRUD, relação entre documentos e agregações.</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=bf2a94d9-a576-4bfd-bdd9-8e7c0b508043">Certificado</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Laravel - Autenticação - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Conteúdo/atividades:  Criação de auth com php artisan make:auth, criação de autenticacão manual, extensão socialite, autorização e token.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=888f9229-1a88-41a5-8275-c7e7b683ad47">Certificado</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Laravel - Eloquent ORM - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Conteúdo/atividades: Mass assignment com fillable, relaciomanetos: many to one, one to many, many to many e one to one, factories e seeders, query builder e collections.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=6143e31b-41c0-4c9f-a8ed-bdae08b9430e">Certificado</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Iniciando com Vue.js 2 - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Conteúdo/atividades: A instância Vue, propriedade data, data binding, two way data binding, v-for, diretivas condicionais, filtros, propriedade Computed, ordenando tabelas e filtro de busca.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Vue.js" class="text-info">Visite o repositório desse curso no meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=6143e31b-41c0-4c9f-a8ed-bdae08b9430e">Certificado</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Desenvolvimento de APIs RESTFul com Laravel - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Conteúdo/atividades: RESTful e protocolo HTTP, end-points, CRUD, trabalhando com mais de um resource, validações, Laravel Passport, Vue Components do Laravel Passport e requisição de token, cache do resultado, liberando o CORS.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=ddc8aaea-fa79-47ec-ab84-e722bed4619e">Certificado</a></p>
+                            </div>
+                        </div>
+                        <br>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section cursos e certificados -->
+                <hr>
+                <section id="projetos"><!-- Inicio do Section projetos -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Projetos</h1>
+                        <br><br>
+                        <h3>Projetos pessoais</h3>
+                        <span>Clique na caixa para visualizar em meu GitHub</span>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-UNES-Universidade">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto1.jpg" alt="projeto pessoal UNES Universidade">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto UNES Universidade
+                                            <p>Projeto para o site de uma Universidade. <br> Tecnologias: HTML5 básico</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Anna-Bella">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto2.jpg" alt="projeto pessoal modelo Anna Bella">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Anna Bella
+                                            <p>Projeto para o site de uma modelo. <br> Tecnologias: HTML5/CSS3 básico</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-TecBlog">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto3.jpg" alt="projeto pessoal TecBlog">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto TecBlog
+                                            <p>Projeto para um blog de tecnologia. <br> Tecnologias: HTML5/CSS3 intermediário</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-NoticiasCidade">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto4.jpg" alt="projeto pessoal NotíciasCidade">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Notícias Cidade
+                                            <p>Projeto para um site de notícias. <br> Tecnologias: HTML5/CSS3 avançado</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-ChaleHotel">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto5.jpg" alt="projeto pessoal Chalé Hotel">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Chalé Hotel
+                                            <p>Projeto para um site de hotel. <br> Tecnologias: HTML5/CSS3 avançado</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-MuseuNacional">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto6.jpg" alt="projeto pessoal Museu Nacional">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Museu Nacional
+                                            <p>Projeto para um site do Museu Nacional. <br> Tecnologias: HTML5/CSS3 avançado</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Finans">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto9.jpg" alt="projeto pessoal Finans">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Finans
+                                            <p>Projeto para um site de finanças pessoais. <br> Tecnologias: HTML5, CSS3 e Bootstrap</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/ProjetoClone-Spotify">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto10.jpg" alt="projeto pessoal Clone de layout Spotify">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Clone Spotify
+                                            <p>Projeto de clone de layout da Index do Spotify. <br> Tecnologias: HTML5, CSS3 e Bootstrap</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppCalculadora">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto11.jpg" alt="projeto pessoal App Calculadora">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto App Calculadora
+                                            <p>Projeto de calculadora com operações básicas. <br> Tecnologias: HTML5, CSS3, Bootstrap e JavaScript</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppGameMataMosquito">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto12.jpg" alt="projeto pessoal app game mata mosquito">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto App Game Mata Mosquito
+                                            <p>Projeto de um jogo mata mosquito. <br> Tecnologias: HTML5, CSS3, Bootstrap e JavaScript</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppOrcamentoPessoal">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto13.jpg" alt="projeto pessoal app orçamento pessoal">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto App Orçamento Pessoal
+                                            <p>Projeto de um app de orçamento pessoal, com inserção de dados delete e filtragem em LocalStorage. <br> Tecnologias: HTML5, CSS3, Bootstrap e JavaScript (ECMAScript 6) [Extras: localStorage e Array Filter]</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-HelpDesk">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto14.jpg" alt="projeto pessoal help desk">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto App Help Desk
+                                            <p>Projeto prático de desenvolvimento de um app que permita abertura de chamados de help desk. <br> Tecnologias: HTML5, CSS(Bootstrap) e PHP7 básico/intermediário e estruturado.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-SendMail">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto15.jpg" alt="projeto pessoal send mail">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto App Send Mail
+                                            <p>Projeto prático de desenvolvimento de um app que permita o envio de e-mails para um destinatário. <br> Tecnologias: HTML5, CSS (Bootstrap) e PHP7 OO com library PHPMailer.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-DBLojaVirtual">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto16.jpg" alt="projeto pessoal DB loja virtual">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto DBLojaVirtual
+                                            <p>Projeto prático de um banco de dados para uma pequena loja virtual. <br> Tecnologias: SQL: [CREATE, INSERT, SELECT, PRIMARY KEY (PK) E FOREIGN KEY (FK), relacionamento de um para um, um para muitos, muitos para muitos e JOINS (LEFT JOIN, RIGHT JOIN, INNER JOIN)].</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-PesquisaEndereco">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto17.jpg" alt="projeto pessoal pesquisa endereço consumindo webservices">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto PesquisaEndereço
+                                            <p>PProjeto curto de pesquisa de CEP realizado para exemplificação do consumo de webservices. <br> Tecnologias: HTML5, CSS (Bootstrap) e JavaScript [XMLHttpRequest e JSON] <span class="text-warning">Webservice consumida: Viacep</span></p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-ListaTarefas">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto18.jpg" alt="projeto pessoal lista tarefas">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto App Lista Tarefas
+                                            <p>Projeto prático de desenvolvimento de um app que permita um CRUD de tarefas. <br> Tecnologias: HTML5, CSS(Bootstrap), JavaScript, SQL e PHP (PDO e Orientação a Objetos).</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Dashboard">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto19.jpg" alt="projeto pessoal Dashboard com ajax">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Dashboard
+                                            <p>Projeto prático de desenvolvimento de um app de dashboard. <br> Tecnologias: HTML5, CSS3(Bootstrap), JavaScript(JQuery, AJAX, JSON) e conceitos de PHP orientado a objetos. </p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/ProjetoClone-Twitter">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto20.jpg" alt="projeto pessoal clone twitter">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Clone Twitter
+                                            <p>Projeto prático de uma cópia do sistema Twitter. <br> Tecnologias: HTML5, CSS3(Bootstrap4, Font-Awesome), JS(jQuery, bootstrap.js, popper.js) e PHP OO com MVC (Composer). </p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Vue.js/tree/master/iniciando-com-vuejs">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto21.jpg" alt="projeto pessoal tabela brasileirao">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto VUE - Tabela Brasileirão Série A - 2018
+                                            <p>Projeto prático de desenvolvimento de uma tabela do brasileirão. <br> Tecnologias: HTML5, CSS(Bootstrap), JavaScript (ES6) e VUE.JS.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-SlimAPI-RESTful">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto22.jpg" alt="projeto pessoal api slim RESTful">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Projeto Slim API RESTful
+                                            <p>Projeto prático de desenvolvimento de uma API para CRUD de produtos<br> Tecnologias: JSON, PHP OO/Composer/MVC/Slim Framework/Illuminate Database-Eloquent(ORM)/JwtAuthentication e JWT para geração de Tokens de acesso a API</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br><br>
+                        <h3>Projetos acadêmicos</h2>
+                            <span>Clique na caixa para visualizar em meu GitHub</span>
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/pr-imoveisbeta-projetoSENAI">
+                                        <div class="card text-white bg-dark card-content">
+                                            <img class="card-img-top" src="img/projeto8.png" alt="projeto acadêmico pr-imoveisbeta" style="padding-top: 25px;">
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                    Pr-imóveisbeta
+                                                <p>Site/sistema web realizado para uma imobiliária fictícia durante o curso Técnico em Informática. <br> Tecnologias: Web: HTML5/CSS3 (Bootstrap/JQuery UI), JS(JQuery/JQuery UI/Materialize) PHP(PDO), AJAX e JSON. Mobile: JAVA (Android Studio), JSON e integração com a library Picasso. </p>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4">
+                                </div>
+                                <div class="col-lg-4">
+                                </div>
+                            </div>
+                            <br><br>
+                            <h3>Projetos profissionais</h2>
+                                <span>Clique na caixa para visitar o(s) site(s)</span>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-MecanicaKustom">
+                                            <div class="card text-white bg-dark card-content">
+                                                <img class="card-img-top" src="img/projeto7.jpg" alt="projeto profissional mecanicakustom">
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        Mecânica Kustom
+                                                    <p>Site profissional para uma mecânica de veículos em Curitiba.</p>
+                                                    <span class="text-danger">Retirado do ar em Abril de 2019 por solicitação do cliente, upado em meu Github 26/04/2019 às 19:20 para fins de apresentação de portfólio. Antiga URL: https://www.mecanicakustom.com.br</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                    </div>
+                                    <div class="col-lg-4">
+                                    </div>
+                                </div>
+                    </div> <!-- Fim container -->
+                </section> <!-- Fim do section projetos -->
+                <br><br>
+                <div class="text-white bg-dark text-center">
+                    <footer class="footer">
+                        <div class="container">
+                            <br><br>
+                            &copy; Nícolas Teixeira<br>
+                            <span class="text-info"><i class="fas fa-phone"></i>&nbsp;999409631</span> &nbsp;|&nbsp; <a class="text-info" href="mailto:nicolasteixeira3856@outlook.com"><i class="fas fa-envelope"></i>&nbsp;E-mail</a> &nbsp;&nbsp;<br>
+                            &nbsp;<a class="text-info" target="_blank" href="https://github.com/nicolasteixeira3856"><i class="fab fa-github"></i>&nbsp;Github</a>
+                            &nbsp;|&nbsp;
+                            <a class="text-info" target="_blank" href="https://www.linkedin.com/in/nícolas-teixeira-293446124/"><i class="fab fa-linkedin-in"></i>&nbsp;LinkedIn</a>
+                            <br><br>
+                        </div>
+                    </footer>
+                </div>
             </div>
-        </nav>
-        <section id="formacao"><!-- Inicio do section experiencia -->
-            <div class="container"> <!-- Inicio container -->
+            <div class="tab-pane fade" id="english" role="tabpanel" aria-labelledby="english-tab">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark ul-margin sticky-top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTextUs" aria-controls="navbarTextUs" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTextUs">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#courses-certificates">Courses/certificates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="#projects">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <section id="education"><!-- Inicio do section experiencia -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Education</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">UFPR - Federal University of Paraná</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Technology in Systems Analysis and Development</p>
+                                <!-- <p>Atividades:</p> -->
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856" class="text-info">Also visit my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">Studying</p>
+                                <p>2019-2024</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">SENAI - National Industrial Training Service</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Computer Technician</p>
+                                <p>Activities: Web development, mobile development, database (SQL, DBMS: MySQL, Oracle), design standards, project prototyping, system quality (system testing, alpha and beta version) and systems modeling (UML diagramming)</p>
+                                <p>Course completion project: <a target="_blank" href="https://github.com/nicolasteixeira3856/pr-imoveisbeta-projetoSENAI" class="text-info">Pr-imoveisbeta</a></p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856" class="text-info">Also visit my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">Graduated</p>
+                                <p>2015-2017</p>
+                            </div>
+                        </div>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section experieência -->
+                <hr>
+                <section id="skills"><!-- Inicio do section habilidades -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Skills</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p>HTML5, CSS, PHP (frameworks: Laravel, Zend Framework, Zend Expressive), JavaScript, NodeJS, database (SQL and NoSQL), Shell Script, Python, ReactJS, React Native, VueJS, JQuery, Axios, Bootstrap, Vuetify, Doctrine ORM, Eloquent ORM, Redis, ElasticSearch, Webpack, Yarn/NPM, Docker, Git, Jira, Confluence, Trello, Slack, Scrum, Linux(Debian/Ubuntu/Fedora/Manjaro) and design/architecture patterns and practices : MVC, DDD, PSR's, SOLID, Hexagonal Architecture, CQRS, Object Calisthenics.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <span class="font-weight-bold">Visit the section <a href="#projects">PROJECTS</a> to view the work I have done with my skills</span>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section habilidades -->
+                <hr>
+                <section id="experience"><!-- Inicio do section formação -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Experience</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Overdrive Softwares e Consultoria</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Software Developer</p>
+                                <p>Activities: Analysis, development and maintenance of systems, mainly administrative, using the following languages and tools: HTML5, CSS (Bootstrap), JavaScript (jQuery, Vue.JS), PHP with the Laravel framework and mostly of its core tools (Eloquent ORM, Migrations, creation of routines, validators, Resource Controllers) and also maintenance and development of new features in pure PHP system, React, Webpack, Yarn / NPM, Docker, Github.
+                                <br>Linux environment: development of server automation tasks using Shell Script and Crontab, implementation analysis of Postfix, analysis of logs generated by the server and deploy.</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">September 2019 - Now</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">MadeiraMadeira</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">Software Developer</p>
+                                <p>Activities: Development/maintenance of WEB systems (LAMP Stack) with the following languages and tools: HTML5, CSS(Bootstrap), JavaScript (jQuery, Vue.JS, Axios), PHP (Zend Framework 2 e 3, Zend Expressive 3, OO), Doctrine ORM, Redis, ElasticSearch, AWS(EC2, SQS, S3, Lambda), Webpack, Yarn/NPM, Python(for Lambda analysis, maintenance and development), Docker, Git. Architectural patterns and practices: DDD, TDD, BDD, PSR's, SOLID, Hexagonal Arquitecture, CQRS, Object Calisthenics.</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">September 2019 - September 2020</p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Grupo BRT</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">JR Developer</p>
+                                <p>Activities: WEB Programming in HTML5, CSS3 (Bootstrap), JavaScript (VanillaJS, jQuery, ECMAScript6, VueJS, Angular), PHP (Laravel 4.4 and 5.8), GIT and agile software development with Kanban methodology</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">June 2019 - August 2019</p>
+                                <p>Reason for leaving in two months: time to travel to the University.</p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">FACIAP</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="lead font-weight-bold">StartUp pre-acceleration program</p>
+                                <p>Activities: Development of RESTful API with Laravel and Vue Components</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="lead">May 2019 - July 2019</p>
+                            </div>
+                        </div>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section experiência -->
+                <section id="courses-certificates"> <!-- Inicio do section cursos e certificados -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Courses/certificates</h1>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Full Web Development 2021 - Udemy</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Content/activities: HTML5, CSS3, Bootstrap 4 and responsive design, JavaScript, Modern JavaScript ECMAScript 2015 - ES6 and object orientation, PHP7, PHP7 object oriented, MySQL, Ajax, PHP with OO and MySQL, web application publishing, JQuery, MVC architecture standard with PHP (using Composer), API with Slim Framework, SASS, mobile applications with IONIC and Wordpress.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Curso-DesenvolvimentoWebCompleto" class="text-info">Visit this course's repository on my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.udemy.com/certificate/UC-69bb2801-1e6e-4eb4-86ec-906aba12beb7/">Certificate</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Getting started with Laravel 5.5 - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Content/activities: Definition of routes, views, blade template, Artisan, models, controllers, CRUD with Eloquent ORM.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visit this course's repository on my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=bf2a94d9-a576-4bfd-bdd9-8e7c0b508043">Certificate</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Starting with MongoDB - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Content/activities: NOSQL and MongoDB, MongoShell, data types, validations, collections, CRUD, relationship between documents and aggregations.</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=bf2a94d9-a576-4bfd-bdd9-8e7c0b508043">Certificate</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Laravel - Authentication - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Content/activities: Auth with php artisan make:auth, manual authentication, socialite extension, authorization and token.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visit this course's repository on my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=888f9229-1a88-41a5-8275-c7e7b683ad47">Certificate</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Laravel - Eloquent ORM - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Content/activities: Mass assignment with fillable, relationships: many to one, one to many, many to many and one to one, factories and seeders, query builder and collections.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visit this course's repository on my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=6143e31b-41c0-4c9f-a8ed-bdae08b9430e">Certificate</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Getting started with Vue.js 2 - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Content/activities: The Vue instance, data property, data binding, two way data binding, v-for, conditional directives, filters, Computed property, sorting tables and search filter.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Vue.js" class="text-info">Visit this course's repository on my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=6143e31b-41c0-4c9f-a8ed-bdae08b9430e">Certificate</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="font-weight-bold">Development of RESTFul APIs with Laravel - SchoolOfNet</p>
+                            </div>
+                            <div class="col-sm-5">
+                                <p>Content/activities: RESTful and HTTP protocol, end-points, CRUD, working with more than one resource, validations, Laravel Passport, Laravel Passport, Vue Components and token request, result cache and CORS.</p>
+                                <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visit this course's repository on my github</a></p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p><a class="lead" target="_blank" href="https://www.schoolofnet.com/validar-certificado/?certificate=ddc8aaea-fa79-47ec-ab84-e722bed4619e">Certificate</a></p>
+                            </div>
+                        </div>
+                        <br>
+                    </div><!-- Fim container -->
+                </section> <!-- Fim do section cursos e certificados -->
+                <hr>
+                <section id="projects"><!-- Inicio do Section projetos -->
+                    <div class="container"> <!-- Inicio container -->
+                        <br><br>
+                        <h1 class="display-4">Projects</h1>
+                        <br><br>
+                        <h3>Personal projects</h3>
+                        <span>Click on the box to view it on my GitHub</span>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-UNES-Universidade">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto1.jpg" alt="projeto pessoal UNES Universidade">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                UNES University Project
+                                            <p>Project for a university website . <br> Technologies: Basic HTML5</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Anna-Bella">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto2.jpg" alt="projeto pessoal modelo Anna Bella">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Project Anna Bella
+                                            <p>Project for a model's website.<br> Technologies: Basic HTML5/CSS3</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-TecBlog">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto3.jpg" alt="projeto pessoal TecBlog">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Project TecBlog
+                                            <p>Project for a technology blog. <br> Technologies: Intermediate HTML5/CSS3</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-NoticiasCidade">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto4.jpg" alt="projeto pessoal NotíciasCidade">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                City News Project
+                                            <p>Project for a news site . <br> Technologies: Advanced HTML5/CSS3</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-ChaleHotel">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto5.jpg" alt="projeto pessoal Chalé Hotel">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Project Chalé Hotel
+                                            <p>Project for a hotel website.<br> Technologies: Advanced HTML5/CSS3</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-MuseuNacional">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto6.jpg" alt="projeto pessoal Museu Nacional">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                National Museum Project
+                                            <p>Project for a National Museum website. <br> Technologies: Advanced HTML5/CSS3</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Finans">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto9.jpg" alt="projeto pessoal Finans">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                National Finans
+                                            <p>Project for a personal finance website. <br> Technologies: HTML5, CSS3 and Bootstrap</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/ProjetoClone-Spotify">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto10.jpg" alt="projeto pessoal Clone de layout Spotify">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Spotify Clone Project
+                                            <p>Spotify clone layout project.<br> Technologies: HTML5, CSS3 and Bootstrap</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppCalculadora">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto11.jpg" alt="projeto pessoal App Calculadora">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Calculator App Project
+                                            <p>Calculator project with basic operations. <br> Technologies: HTML5, CSS3, Bootstrap and JavaScript</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppGameMataMosquito">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto12.jpg" alt="projeto pessoal app game mata mosquito">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Mosquito Game App Project
+                                            <p>A simple game project. <br> Technologies: HTML5, CSS3, Bootstrap and JavaScript</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppOrcamentoPessoal">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto13.jpg" alt="projeto pessoal app orçamento pessoal">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Personal Budget App Project
+                                            <p>Project of a personal budget app, with insertion, delete and filtering in LocalStorage.<br> Technologies: HTML5, CSS3, Bootstrap and JavaScript (ECMAScript 6) [Extras: localStorage and Array Filter]</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-HelpDesk">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto14.jpg" alt="projeto pessoal help desk">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                App Help Desk Project
+                                            <p>Practical project to develop an app that allows opening help desk calls.<br> Technologies: HTML5, CSS (Bootstrap) and basic/intermediate and structured PHP7.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-SendMail">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto15.jpg" alt="projeto pessoal send mail">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Send Mail App Project
+                                            <p>Practical project to develop an app that allows sending emails to a recipient. <br> Technologies: HTML5, CSS (Bootstrap) and PHP7 OO with PHPMailer library.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-DBLojaVirtual">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto16.jpg" alt="projeto pessoal DB loja virtual">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                DBVirtualStore Project
+                                            <p>Practical project of a database for a small virtual store. <br> Technologies: SQL: [CREATE, INSERT, SELECT, PRIMARY KEY (PK) AND FOREIGN KEY (FK), one-to-one, one to many, many to many and JOINS (LEFT JOIN, RIGHT JOIN, INNER JOIN)].</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-PesquisaEndereco">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto17.jpg" alt="projeto pessoal pesquisa endereço consumindo webservices">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Project Search Address
+                                            <p>Short CEP research project carried out to exemplify the consumption of web services.<br> Technologies: HTML5, CSS (Bootstrap) and JavaScript [XMLHttpRequest and JSON]<span class="text-warning">Webservice consumed: Viacep</span></p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-ListaTarefas">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto18.jpg" alt="projeto pessoal lista tarefas">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Project Task List App
+                                            <p>Practical project to develop an app that allows a task CRUD. <br> Technologies: HTML5, CSS (Bootstrap), JavaScript, SQL and PHP (OOP and Object Orientation)</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Dashboard">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto19.jpg" alt="projeto pessoal Dashboard com ajax">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Dashboard Project
+                                            <p>Practical project to develop a dashboard. <br> Technologies: HTML5, CSS3 (Bootstrap), JavaScript (JQuery, AJAX, JSON) and object-oriented PHP concepts.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/ProjetoClone-Twitter">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto20.jpg" alt="projeto pessoal clone twitter">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Project Clone Twitter
+                                            <p>Practical project of a clona of the basic Twitter system.<br> Technologies: HTML5, CSS3 (Bootstrap4, Font-Awesome), JS (jQuery, bootstrap.js, popper.js) and PHP OOP with MVC (Composer).</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Vue.js/tree/master/iniciando-com-vuejs">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto21.jpg" alt="projeto pessoal tabela brasileirao">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Project VUE - Brasileirão Table Série A - 2018
+                                            <p>Practical project to develop a brasileirão table. <br> Technologies: HTML5, CSS (Bootstrap), JavaScript (ES6) and VUE.JS.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-responsivo">
+                                <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-SlimAPI-RESTful">
+                                    <div class="card text-white bg-dark card-content">
+                                        <img class="card-img-top" src="img/projeto22.jpg" alt="projeto pessoal api slim RESTful">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Slim API RESTful Project
+                                            <p>Practical project to develop an API for product CRUD<br> Technologies: JSON, PHP OOP/Composer/MVC/Slim Framework/Illuminate Database-Eloquent (ORM)/JwtAuthentication and JWT to generate API access Tokens</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <br><br>
+                        <h3>Academic projects</h3>
+                            <span>Click on the box to view it on my GitHub</span>
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/pr-imoveisbeta-projetoSENAI">
+                                        <div class="card text-white bg-dark card-content">
+                                            <img class="card-img-top" src="img/projeto8.png" alt="projeto acadêmico pr-imoveisbeta" style="padding-top: 25px;">
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                    Pr-imóveisbeta
+                                                <p>Web system developed for a fictitious real estate company during the Computer Technician course.<br> Technologies: Web: HTML5/CSS3(Bootstrap/JQuery UI), JS (JQuery/JQuery UI/Materialize) PHP (PDO), AJAX and JSON. Mobile: JAVA (Android Studio), JSON and integration with the Picasso library.</p>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4">
+                                </div>
+                                <div class="col-lg-4">
+                                </div>
+                            </div>
+                            <br><br>
+                            <h3>Professional projects</h3>
+                                <span>Click on the box to visit the websites</span>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-MecanicaKustom">
+                                            <div class="card text-white bg-dark card-content">
+                                                <img class="card-img-top" src="img/projeto7.jpg" alt="projeto profissional mecanicakustom">
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        Kustom Mechanics
+                                                    <p>Professional website for vehicle mechanics in Curitiba.</p>
+                                                    <span class="text-danger">Taken down in April 2019 at the request of the client, uploaded to my Github 04/26/2019 at 7:20PM for portfolio presentation purposes. Old URL: https://www.mecanicakustom.com.br</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                    </div>
+                                    <div class="col-lg-4">
+                                    </div>
+                                </div>
+                    </div> <!-- Fim container -->
+                </section> <!-- Fim do section projetos -->
                 <br><br>
-                <h1 class="display-4">Formação</h1>
-                <br><br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">UFPR - Universidade Federal do Paraná</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p class="lead font-weight-bold">Tecnologia em Análise e Desenvolvimento de Sistemas</p>
-                        <!-- <p>Atividades:</p> -->
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856" class="text-info">Visite também o meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p class="lead">Cursando</p>
-                        <p>2019-2022</p>
-                    </div>
+                <div class="text-white bg-dark text-center">
+                    <footer class="footer">
+                        <div class="container">
+                            <br><br>
+                            &copy; Nícolas Teixeira<br>
+                            <span class="text-info"><i class="fas fa-phone"></i>&nbsp;999409631</span> &nbsp;|&nbsp; <a class="text-info" href="mailto:nicolasteixeira3856@outlook.com"><i class="fas fa-envelope"></i>&nbsp;E-mail</a> &nbsp;&nbsp;<br>
+                            &nbsp;<a class="text-info" target="_blank" href="https://github.com/nicolasteixeira3856"><i class="fab fa-github"></i>&nbsp;Github</a>
+                            &nbsp;|&nbsp;
+                            <a class="text-info" target="_blank" href="https://www.linkedin.com/in/nícolas-teixeira-293446124/"><i class="fab fa-linkedin-in"></i>&nbsp;LinkedIn</a>
+                            <br><br>
+                        </div>
+                    </footer>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">SENAI - Serviço Nacional de Aprendizagem Industrial</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p class="lead font-weight-bold">Técnico em Informática</p>
-                        <p>Atividades: Desenvolvimento web, desenvolvimento mobile, banco de dados (SQL, SGBDs: MySQL, Oracle), padrões de projeto, prototipação de projeto, qualidade de sistemas (testes de sistemas, versão alfa e beta) e modelagem de sistemas (Diagramação UML) </p>
-                        <p>Projeto de conclusão de curso: <a target="_blank" href="https://github.com/nicolasteixeira3856/pr-imoveisbeta-projetoSENAI" class="text-info">Pr-imoveisbeta</a></p>
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856" class="text-info">Visite também o meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p class="lead">Formado</p>
-                        <p>2015-2017</p>
-                    </div>
-                </div>
-            </div><!-- Fim container -->
-        </section> <!-- Fim do section experieência -->
-        <hr>
-        <section id="experiencia"><!-- Inicio do section formação -->
-            <div class="container"> <!-- Inicio container -->
-                <br><br>
-                <h1 class="display-4">Experiência</h1>
-                <br><br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">MadeiraMadeira</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p class="lead font-weight-bold">Desenvolvedor de Sistemas</p>
-                        <p>Atividades: Desenvolvimento/manutenção de sistemas WEB (Stack LAMP) com as seguintes linguagens e ferramentas: HTML5, CSS(Bootstrap), JavaScript (jQuery, Vue.JS, Axios), PHP (Zend Framework 2 e 3, Zend Expressive 3, OO), Doctrine ORM, Redis, ElasticSearch, AWS(EC2, SQS, S3, Lambda), Webpack, Yarn/NPM, Python(para análise, manutenção e desenvolvimento de Lambda), Docker, Git. Padrões de arquitetura e práticas: DDD, TDD, BDD, PSR's, SOLID, Hexagonal Arquitecture, CQRS, Object Calisthenics.</p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p class="lead">De Setembro de 2019 até o momento</p>
-                    </div>
-                </div>
-                <br/>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Grupo BRT</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p class="lead font-weight-bold">Desenvolvedor JR</p>
-                        <p>Atividades: Programação WEB em HTML5, CSS3(Bootstrap), JavaScript(VanillaJS, jQuery, ECMAScript6, VueJS, Angular), PHP (Laravel 4.4 e 5.8), GIT e desenvolvimento de software ágil com metodologia Kanban</p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p class="lead">De Junho de 2019 até Agosto de 2019</p>
-                        <p>Motivo de saída em dois meses: tempo para deslocamento até a Universidade.</p>
-                    </div>
-                </div>
-                <br/>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">FACIAP</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p class="lead font-weight-bold">Programa de pré-aceleração de StartUp</p>
-                        <p>Atividades: Desenvolvimento de API RESTful com Laravel e Vue Components</p> 
-                    </div>
-                    <div class="col-sm-3">
-                        <p class="lead">De Maio de 2019 até Julho de 2019</p>
-                    </div>
-                </div>
-            </div><!-- Fim container -->
-        </section> <!-- Fim do section formação -->
-        <hr>
-        <section id="habilidades"><!-- Inicio do section habilidades -->
-            <div class="container"> <!-- Inicio container -->
-                <br><br>
-                <h1 class="display-4">Habilidades</h1>
-                <br><br>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h5 class="font-weight-bold">HTML5, CSS, PHP (frameworks: Laravel, Zend Framework, Zend Expressive), JavaScript, NodeJS, banco de dados (SQL e NoSQL), Shell Script, Python, ReactJS, React Native, VueJS, JQuery, Axios, Bootstrap, Vuetify, Doctrine ORM, Eloquent ORM, Redis, ElasticSearch, Webpack, Yarn/NPM, Docker, Git, Jira, Confluence, Trello, Slack, Scrum, Linux(Debian/Ubuntu/Fedora/Manjaro) e nos padrões de projeto/arquitetura e práticas: MVC, DDD, PSR's, SOLID, Hexagonal Architecture, CQRS, Object Calisthenics.</h5>
-                    </div>
-                </div>
-                <br>
-                <span class="font-weight-bold">Visite a seção <a href="#projetos">PROJETOS</a> para visualizar os trabalhos que realizei com minhas habilidades</span>
-            </div><!-- Fim container -->
-        </section> <!-- Fim do section formação -->
-        <hr>
-        <section id="cursos-certificados"> <!-- Inicio do section cursos e certificados -->
-            <div class="container"> <!-- Inicio container -->
-                <br><br>
-                <h1 class="display-4">Cursos/certificados</h1>
-                <br><br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Desenvolvimento Web Completo 2019 - Udemy</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p>Conteúdo/atividades: HTML5, CSS3, Bootstrap 4 e design responsivo, JavaScript, JavaScript Moderno ECMAScript 2015 - ES6 e orientação a objetos, PHP7, PHP7 orientado a objetos, MySQL, Ajax, PHP com PDO e MySQL, publicação de aplicações web, JQuery, padrão de arquitetura MVC com PHP (utlizando Composer), API com Slim Framework, SASS, aplicações mobile com IONIC e Wordpress. </p>
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Curso-DesenvolvimentoWebCompleto" class="text-info">Visite o repositório desse curso no meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p class="lead">Cursando</p>
-                        <p>Certificado de conclusão disponível em breve</p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Iniciando com Laravel 5.5 - SchoolOfNet</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p>Conteúdo/atividades:  Definição de rotas, views, blade template, Artisan, models, controllers, CRUD com Eloquent ORM.</p>
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p><a class="lead" href="https://www.schoolofnet.com/validar-certificado/?certificate=bf2a94d9-a576-4bfd-bdd9-8e7c0b508043">Certificado</a></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Iniciando com MongoDB - SchoolOfNet</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p>Conteúdo/atividades:  NOSQL e MongoDB, MongoShell, tipos de dados, validações, collections, CRUD, relação entre documentos e agregações.</p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p><a class="lead" href="https://www.schoolofnet.com/validar-certificado/?certificate=bf2a94d9-a576-4bfd-bdd9-8e7c0b508043">Certificado</a></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Laravel - Autenticação - SchoolOfNet</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p>Conteúdo/atividades:  Criação de auth com php artisan make:auth, criação de autenticacão manual, extensão socialite, autorização e token.</p>
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p><a class="lead" href="https://www.schoolofnet.com/validar-certificado/?certificate=888f9229-1a88-41a5-8275-c7e7b683ad47">Certificado</a></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Laravel - Eloquent ORM - SchoolOfNet</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p>Conteúdo/atividades: Mass assignment com fillable, relaciomanetos: many to one, one to many, many to many e one to one, factories e seeders, query builder e collections.</p>
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p><a class="lead" href="https://www.schoolofnet.com/validar-certificado/?certificate=6143e31b-41c0-4c9f-a8ed-bdae08b9430e">Certificado</a></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Iniciando com Vue.js 2 - SchoolOfNet</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p>Conteúdo/atividades: A instância Vue, propriedade data, data binding, two way data binding, v-for, diretivas condicionais, filtros, propriedade Computed, ordenando tabelas e filtro de busca.</p>
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Vue.js" class="text-info">Visite o repositório desse curso no meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p><a class="lead" href="https://www.schoolofnet.com/validar-certificado/?certificate=6143e31b-41c0-4c9f-a8ed-bdae08b9430e">Certificado</a></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="font-weight-bold">Desenvolvimento de APIs RESTFul com Laravel - SchoolOfNet</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <p>Conteúdo/atividades: RESTful e protocolo HTTP, end-points, CRUD, trabalhando com mais de um resource, validações, Laravel Passport, Vue Components do Laravel Passport e requisição de token, cache do resultado, liberando o CORS.</p>
-                        <p><a target="_blank" href="https://github.com/nicolasteixeira3856/Laravel" class="text-info">Visite o repositório desse curso no meu github</a></p>
-                    </div>
-                    <div class="col-sm-3">
-                        <p><a class="lead" href="https://www.schoolofnet.com/validar-certificado/?certificate=ddc8aaea-fa79-47ec-ab84-e722bed4619e">Certificado</a></p>
-                    </div>
-                </div>
-                <br>
-            </div><!-- Fim container -->
-        </section> <!-- Fim do section cursos e certificados -->
-        <hr>
-        <section id="projetos"><!-- Inicio do Section projetos -->
-            <div class="container"> <!-- Inicio container -->
-                <br><br>
-                <h1 class="display-4">Projetos</h1>
-                <br><br>
-                <h3>Projetos pessoais</h3>
-                <span>Clique na caixa para visualizar em meu GitHub</span>
-                <br><br>
-                <div class="row">
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-UNES-Universidade">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto1.jpg" alt="projeto pessoal UNES Universidade">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto UNES Universidade
-                                        <p>Projeto para o site de uma Universidade. <br> Tecnologias: HTML5 básico</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Anna-Bella">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto2.jpg" alt="projeto pessoal modelo Anna Bella">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Anna Bella
-                                        <p>Projeto para o site de uma modelo. <br> Tecnologias: HTML5/CSS3 básico</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-TecBlog">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto3.jpg" alt="projeto pessoal TecBlog">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto TecBlog
-                                        <p>Projeto para um blog de tecnologia. <br> Tecnologias: HTML5/CSS3 intermediário</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-NoticiasCidade">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto4.jpg" alt="projeto pessoal NotíciasCidade">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Notícias Cidade
-                                        <p>Projeto para um site de notícias. <br> Tecnologias: HTML5/CSS3 avançado</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-ChaleHotel">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto5.jpg" alt="projeto pessoal Chalé Hotel">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Chalé Hotel
-                                        <p>Projeto para um site de hotel. <br> Tecnologias: HTML5/CSS3 avançado</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-MuseuNacional">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto6.jpg" alt="projeto pessoal Museu Nacional">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Museu Nacional
-                                        <p>Projeto para um site do Museu Nacional. <br> Tecnologias: HTML5/CSS3 avançado</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Finans">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto9.jpg" alt="projeto pessoal Finans">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Finans
-                                        <p>Projeto para um site de finanças pessoais. <br> Tecnologias: HTML5, CSS3 e Bootstrap</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/ProjetoClone-Spotify">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto10.jpg" alt="projeto pessoal Clone de layout Spotify">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Clone Spotify
-                                        <p>Projeto de clone de layout da Index do Spotify. <br> Tecnologias: HTML5, CSS3 e Bootstrap</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppCalculadora">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto11.jpg" alt="projeto pessoal App Calculadora">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto App Calculadora
-                                        <p>Projeto de calculadora com operações básicas. <br> Tecnologias: HTML5, CSS3, Bootstrap e JavaScript</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppGameMataMosquito">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto12.jpg" alt="projeto pessoal app game mata mosquito">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto App Game Mata Mosquito
-                                        <p>Projeto de um jogo mata mosquito. <br> Tecnologias: HTML5, CSS3, Bootstrap e JavaScript</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-AppOrcamentoPessoal">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto13.jpg" alt="projeto pessoal app orçamento pessoal">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto App Orçamento Pessoal
-                                        <p>Projeto de um app de orçamento pessoal, com inserção de dados delete e filtragem em LocalStorage. <br> Tecnologias: HTML5, CSS3, Bootstrap e JavaScript (ECMAScript 6) [Extras: localStorage e Array Filter]</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-HelpDesk">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto14.jpg" alt="projeto pessoal help desk">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto App Help Desk
-                                        <p>Projeto prático de desenvolvimento de um app que permita abertura de chamados de help desk. <br> Tecnologias: HTML5, CSS(Bootstrap) e PHP7 básico/intermediário e estruturado.</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-SendMail">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto15.jpg" alt="projeto pessoal send mail">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto App Send Mail
-                                        <p>Projeto prático de desenvolvimento de um app que permita o envio de e-mails para um destinatário. <br> Tecnologias: HTML5, CSS (Bootstrap) e PHP7 OO com library PHPMailer.</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-DBLojaVirtual">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto16.jpg" alt="projeto pessoal DB loja virtual">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto DBLojaVirtual
-                                        <p>Projeto prático de um banco de dados para uma pequena loja virtual. <br> Tecnologias: SQL: [CREATE, INSERT, SELECT, PRIMARY KEY (PK) E FOREIGN KEY (FK), relacionamento de um para um, um para muitos, muitos para muitos e JOINS (LEFT JOIN, RIGHT JOIN, INNER JOIN)].</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-PesquisaEndereco">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto17.jpg" alt="projeto pessoal pesquisa endereço consumindo webservices">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto PesquisaEndereço
-                                        <p>PProjeto curto de pesquisa de CEP realizado para exemplificação do consumo de webservices. <br> Tecnologias: HTML5, CSS (Bootstrap) e JavaScript [XMLHttpRequest e JSON] <span class="text-warning">Webservice consumida: Viacep</span></p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-ListaTarefas">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto18.jpg" alt="projeto pessoal lista tarefas">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto App Lista Tarefas
-                                        <p>Projeto prático de desenvolvimento de um app que permita um CRUD de tarefas. <br> Tecnologias: HTML5, CSS(Bootstrap), JavaScript, SQL e PHP (PDO e Orientação a Objetos).</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-Dashboard">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto19.jpg" alt="projeto pessoal Dashboard com ajax">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Dashboard
-                                        <p>Projeto prático de desenvolvimento de um app de dashboard. <br> Tecnologias: HTML5, CSS3(Bootstrap), JavaScript(JQuery, AJAX, JSON) e conceitos de PHP orientado a objetos. </p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/ProjetoClone-Twitter">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto20.jpg" alt="projeto pessoal clone twitter">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Clone Twitter
-                                        <p>Projeto prático de uma cópia do sistema Twitter. <br> Tecnologias: HTML5, CSS3(Bootstrap4, Font-Awesome), JS(jQuery, bootstrap.js, popper.js) e PHP OO com MVC (Composer). </p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Vue.js/tree/master/iniciando-com-vuejs">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto21.jpg" alt="projeto pessoal tabela brasileirao">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto VUE - Tabela Brasileirão Série A - 2018
-                                        <p>Projeto prático de desenvolvimento de uma tabela do brasileirão. <br> Tecnologias: HTML5, CSS(Bootstrap), JavaScript (ES6) e VUE.JS.</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-responsivo">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-SlimAPI-RESTful">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto22.jpg" alt="projeto pessoal api slim RESTful">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Projeto Slim API RESTful
-                                        <p>Projeto prático de desenvolvimento de uma API para CRUD de produtos<br> Tecnologias: JSON, PHP OO/Composer/MVC/Slim Framework/Illuminate Database-Eloquent(ORM)/JwtAuthentication e JWT para geração de Tokens de acesso a API</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div> 
-                </div>
-                <br><br>
-                <h3>Projetos acadêmicos</h2>
-                <span>Clique na caixa para visualizar em meu GitHub</span>
-                <br><br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/pr-imoveisbeta-projetoSENAI">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto8.png" alt="projeto acadêmico pr-imoveisbeta" style="padding-top: 25px;">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Pr-imóveisbeta
-                                        <p>Site/sistema web realizado para uma imobiliária fictícia durante o curso Técnico em Informática. <br> Tecnologias: Web: HTML5/CSS3 (Bootstrap/JQuery UI), JS(JQuery/JQuery UI/Materialize) PHP(PDO), AJAX e JSON. Mobile: JAVA (Android Studio), JSON e integração com a library Picasso. </p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4">
-                    </div>
-                    <div class="col-lg-4">
-                    </div>
-                </div>
-                <br><br>
-                <h3>Projetos profissionais</h2>
-                <span>Clique na caixa para visitar o(s) site(s)</span>
-                <br><br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a class="card-link" target="_blank" href="https://github.com/nicolasteixeira3856/Projeto-MecanicaKustom">
-                            <div class="card text-white bg-dark card-content">
-                                <img class="card-img-top" src="img/projeto7.jpg" alt="projeto profissional mecanicakustom">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Mecânica Kustom
-                                        <p>Site profissional para uma mecânica de veículos em Curitiba.</p>
-                                        <span class="text-danger">Retirado do ar em Abril de 2019 por solicitação do cliente, upado em meu Github 26/04/2019 às 19:20 para fins de apresentação de portfólio. Antiga URL: https://www.mecanicakustom.com.br</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4">
-                    </div>
-                    <div class="col-lg-4">
-                    </div>
-                </div>
-            </div> <!-- Fim container -->
-        </section> <!-- Fim do section projetos -->
-        <br><br>
-        <div class="text-white bg-dark text-center">
-            <footer class="footer">
-                <div class="container">
-                    <br><br>
-                    &copy; Nícolas Teixeira<br>
-                    <span class="text-info"><i class="fas fa-phone"></i>&nbsp;999409631</span> &nbsp;|&nbsp; <a class="text-info" href="mailto:nicolasteixeira3856@outlook.com"><i class="fas fa-envelope"></i>&nbsp;E-mail</a> &nbsp;&nbsp;<br>
-                    &nbsp;<a class="text-info" target="_blank" href="https://github.com/nicolasteixeira3856"><i class="fab fa-github"></i>&nbsp;Github</a>
-                    &nbsp;|&nbsp;
-                    <a class="text-info" target="_blank" href="https://www.linkedin.com/in/nícolas-teixeira-293446124/"><i class="fab fa-linkedin-in"></i>&nbsp;LinkedIn</a>
-                    <br><br>
-                </div>
-            </footer>
+            </div>
         </div>
     </div><!-- Fim da div do sticky menu-->
     <!-- JavaScript -->
